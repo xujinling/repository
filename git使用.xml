@@ -1,0 +1,17 @@
+/**
+ * 带global的为全局配置
+ */
+1、git config --global user.name xujinling
+2、git config --global user.mail 1870046354@qq.com
+3、git config user.name king
+4、git config user.mail 1870046354@qq.com
+/**
+ * git会把所有文件以及历史记录直接记录成一个文件夹保存在你的项目中。创建一个新的仓库，首先要去到项目路径下，
+ * 执行git init。这时Git会创建一个隐藏的文件夹.git，所有的历史和配置信息都储存在其中。
+ * 命令行会出现
+ *	    Initialized empty Git repository in /home/user/Desktop/git_exercise/.git/
+ */
+5、git init 
+6、git status  //检查状态
+7、git remote add origin git https://github.com/xujinling/repository.git  //将本地的仓库关联到Github上
+8、git push -u origin master  //上传代码到github远程仓库
